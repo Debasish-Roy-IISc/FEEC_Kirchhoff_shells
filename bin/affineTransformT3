@@ -1,0 +1,4 @@
+function T = affinTransformT3(p)
+    % Derivative of shape function
+    dsp = [1 0 -1;0 1 -1];
+    T=dsp*p;
